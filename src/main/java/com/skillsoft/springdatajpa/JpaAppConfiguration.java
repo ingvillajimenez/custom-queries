@@ -22,7 +22,7 @@ public class JpaAppConfiguration {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUsername("root");
         dataSource.setPassword("admin123");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/CompanyDB?createDatabaseIfNotExist=true&useSSL=false");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/BookStore?createDatabaseIfNotExist=true&useSSL=false");
 
         return dataSource;
     }
